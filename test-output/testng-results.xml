@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-19T20:29:17 PDT" name="Suite" finished-at="2025-03-19T20:29:36 PDT" duration-ms="18704">
+    <groups>
+    </groups>
+    <test started-at="2025-03-19T20:29:17 PDT" name="Test" finished-at="2025-03-19T20:29:36 PDT" duration-ms="18704">
+      <class name="Tests.DeleteDataTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DeleteDataTests@72758afa]" started-at="2025-03-19T20:29:33 PDT" name="setup" finished-at="2025-03-19T20:29:33 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:Tests.DeleteDataTests@72758afa]" started-at="2025-03-19T20:29:33 PDT" name="setup1" finished-at="2025-03-19T20:29:33 PDT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="test_UpdateData()[pri:3, instance:Tests.DeleteDataTests@72758afa]" started-at="2025-03-19T20:29:33 PDT" name="test_UpdateData" finished-at="2025-03-19T20:29:35 PDT" duration-ms="2263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_UpdateData -->
+      </class> <!-- Tests.DeleteDataTests -->
+      <class name="Tests.UpdateDataTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.UpdateDataTests@25b2cfcb]" started-at="2025-03-19T20:29:29 PDT" name="setup" finished-at="2025-03-19T20:29:29 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:Tests.UpdateDataTests@25b2cfcb]" started-at="2025-03-19T20:29:29 PDT" name="setup1" finished-at="2025-03-19T20:29:29 PDT" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="test_UpdateData()[pri:3, instance:Tests.UpdateDataTests@25b2cfcb]" started-at="2025-03-19T20:29:29 PDT" name="test_UpdateData" finished-at="2025-03-19T20:29:33 PDT" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_UpdateData -->
+      </class> <!-- Tests.UpdateDataTests -->
+      <class name="Tests.AddDataTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AddDataTests@4da602fc]" started-at="2025-03-19T20:29:17 PDT" name="setup" finished-at="2025-03-19T20:29:18 PDT" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Tests.AddDataTests@4da602fc]" started-at="2025-03-19T20:29:18 PDT" name="login" finished-at="2025-03-19T20:29:21 PDT" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="test_AddData()[pri:0, instance:Tests.AddDataTests@4da602fc]" started-at="2025-03-19T20:29:21 PDT" name="test_AddData" finished-at="2025-03-19T20:29:25 PDT" duration-ms="3495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AddData -->
+      </class> <!-- Tests.AddDataTests -->
+      <class name="Tests.LoginTests">
+        <test-method is-config="true" signature="setUpBS()[pri:0, instance:Tests.LoginTests@3f792b9b]" started-at="2025-03-19T20:29:17 PDT" name="setUpBS" finished-at="2025-03-19T20:29:17 PDT" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBS -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTests@3f792b9b]" started-at="2025-03-19T20:29:25 PDT" name="setup" finished-at="2025-03-19T20:29:25 PDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_LoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Tests.LoginTests@3f792b9b]" started-at="2025-03-19T20:29:26 PDT" name="test_LoginScenarios" data-provider="loginData" finished-at="2025-03-19T20:29:26 PDT" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jan2025.sarika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[token]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginScenarios -->
+        <test-method signature="test_LoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Tests.LoginTests@3f792b9b]" started-at="2025-03-19T20:29:26 PDT" name="test_LoginScenarios" data-provider="loginData" finished-at="2025-03-19T20:29:26 PDT" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jan2025.sarika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[username and password is incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginScenarios -->
+        <test-method signature="test_LoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Tests.LoginTests@3f792b9b]" started-at="2025-03-19T20:29:26 PDT" name="test_LoginScenarios" data-provider="loginData" finished-at="2025-03-19T20:29:26 PDT" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jan2025.sarika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[as123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[username and password is incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginScenarios -->
+        <test-method signature="test_LoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Tests.LoginTests@3f792b9b]" started-at="2025-03-19T20:29:26 PDT" name="test_LoginScenarios" data-provider="loginData" finished-at="2025-03-19T20:29:27 PDT" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[username and password is incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginScenarios -->
+        <test-method signature="test_LoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Tests.LoginTests@3f792b9b]" started-at="2025-03-19T20:29:27 PDT" name="test_LoginScenarios" data-provider="loginData" finished-at="2025-03-19T20:29:27 PDT" duration-ms="497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[as2344]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[username and password is incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginScenarios -->
+        <test-method signature="test_LoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Tests.LoginTests@3f792b9b]" started-at="2025-03-19T20:29:27 PDT" name="test_LoginScenarios" data-provider="loginData" finished-at="2025-03-19T20:29:27 PDT" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[username and password is incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginScenarios -->
+        <test-method signature="test_LoginScenarios(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Tests.LoginTests@3f792b9b]" started-at="2025-03-19T20:29:27 PDT" name="test_LoginScenarios" data-provider="loginData" finished-at="2025-03-19T20:29:28 PDT" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[username and password is incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginScenarios -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:Tests.LoginTests@3f792b9b]" started-at="2025-03-19T20:29:41 PDT" name="flushReport" finished-at="2025-03-19T20:29:42 PDT" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- Tests.LoginTests -->
+      <class name="Tests.GetDataTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetDataTests@2a8d39c4]" started-at="2025-03-19T20:29:28 PDT" name="setup" finished-at="2025-03-19T20:29:28 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:Tests.GetDataTests@2a8d39c4]" started-at="2025-03-19T20:29:28 PDT" name="setup1" finished-at="2025-03-19T20:29:28 PDT" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="test_invalidGetData1()[pri:1, instance:Tests.GetDataTests@2a8d39c4]" started-at="2025-03-19T20:29:28 PDT" name="test_invalidGetData1" finished-at="2025-03-19T20:29:28 PDT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_invalidGetData1 -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:Tests.GetDataTests@2a8d39c4]" started-at="2025-03-19T20:29:28 PDT" name="setup1" finished-at="2025-03-19T20:29:28 PDT" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="test_invalidGetData2()[pri:2, instance:Tests.GetDataTests@2a8d39c4]" started-at="2025-03-19T20:29:28 PDT" name="test_invalidGetData2" finished-at="2025-03-19T20:29:29 PDT" duration-ms="729" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [503]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [503]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at Tests.GetDataTests.test_invalidGetData2(GetDataTests.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_invalidGetData2 -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:Tests.GetDataTests@2a8d39c4]" started-at="2025-03-19T20:29:35 PDT" name="setup1" finished-at="2025-03-19T20:29:35 PDT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="test_validGetData()[pri:3, instance:Tests.GetDataTests@2a8d39c4]" started-at="2025-03-19T20:29:35 PDT" name="test_validGetData" finished-at="2025-03-19T20:29:36 PDT" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_validGetData -->
+      </class> <!-- Tests.GetDataTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

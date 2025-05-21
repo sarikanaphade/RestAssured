@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <listeners>
+    <listener class-name="Listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="1" parallel="methods" name="Test">
+    <classes>
+      <class name="Tests.LoginTests"/>
+      <class name="Tests.AddDataTests"/>
+      <class name="Tests.GetDataTests"/>
+      <class name="Tests.UpdateDataTests"/>
+      <class name="Tests.DeleteDataTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
